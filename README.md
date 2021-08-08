@@ -4,7 +4,7 @@
 ![tests passing](https://raw.githubusercontent.com/PavelDymkov/ng-track-by/master/badges/tests.svg)
 ![license](https://raw.githubusercontent.com/PavelDymkov/ng-track-by/master/badges/license.svg)
 
-> Library for set value of ngForTrackBy without adding any code to component using only template.
+> Library for set a value of the ngForTrackBy without adding any code to a component using only a template.
 
 ## Usage
 
@@ -33,6 +33,6 @@ Now you can use `trackBy` and `trackById`:
 </ul>
 ```
 
-The `trackById` is alias for `trackBy="id"`.
+The `trackById` is an alias for `trackBy="id"`.
 
-The `trackBy` directive specifies key in item of collection according to which compute the identity of items.
+The `trackBy` directive specifies the key in item of a collection according to which compute the identity of items.

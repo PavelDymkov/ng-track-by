@@ -9,7 +9,6 @@ import { TestCase03Component } from "./test-case-03.component";
 @NgModule({
     imports: [
         CommonModule,
-        TrackByIdModule,
         RouterModule.forChild([
             {
                 path: "",
@@ -17,6 +16,7 @@ import { TestCase03Component } from "./test-case-03.component";
             },
         ]),
         TestComponentModule,
+        TrackByIdModule,
     ],
     declarations: [TestCase03Component],
 })
