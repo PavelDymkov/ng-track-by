@@ -1,7 +1,7 @@
 {
     "name": "ng-track-by",
     "version": "1.0.0",
-    "description": "trackBy and trackById directives witch provides TrackByFunction to ngForTrackBy",
+    "description": "trackBy and trackById directives which provide TrackByFunction to ngForTrackBy",
     "keywords": [
         "angular",
         "ngFor",
