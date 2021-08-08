@@ -1,0 +1,8 @@
+<ng-container *ngFor="let item of items" trackById>
+    <test-component
+        [name]="item.name"
+        (destroy)="onTestComponentDestroy($event)"
+    ></test-component>
+</ng-container>
+
+<button (click)="updateItems()">Update Items</button>

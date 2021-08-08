@@ -1,0 +1,46 @@
+{
+    "name": "ng-track-by--source",
+    "version": "0.0.0",
+    "private": true,
+    "author": {
+        "name": "Pavel Dymkov",
+        "email": "dymkov86@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PavelDymkov/ng-track-by.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "badges": "tsc --project badges/tsconfig.json && node badges/create.js",
+        "build": "ng build && npm run copy-assets && npm run badges",
+        "copy-assets": "cp README.md LICENSE package",
+        "start": "ng serve",
+        "test": "mocha --config test/mocha.config.js",
+        "watch": "ng build --watch --configuration development"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^12.2.0",
+        "@angular/cli": "^12.2.0",
+        "@angular/common": "^12.2.0",
+        "@angular/compiler": "^12.2.0",
+        "@angular/compiler-cli": "^12.2.0",
+        "@angular/core": "^12.2.0",
+        "@angular/platform-browser": "^12.2.0",
+        "@angular/platform-browser-dynamic": "^12.2.0",
+        "@angular/router": "^12.2.0",
+        "@types/node": "^16.4.13",
+        "badge-maker": "^3.3.1",
+        "logical-not": "^1.0.7",
+        "mocha": "^9.0.3",
+        "ng-packagr": "^12.2.0",
+        "prettier": "^2.3.2",
+        "puppeteer": "^10.2.0",
+        "puppeteer-io": "^1.12.0",
+        "rimraf": "^3.0.2",
+        "rxjs": "^7.3.0",
+        "tslib": "^2.3.0",
+        "typescript": "^4.3.5",
+        "zone.js": "^0.11.4"
+    }
+}

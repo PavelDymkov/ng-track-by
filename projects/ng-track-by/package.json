@@ -1,0 +1,30 @@
+{
+    "name": "ng-track-by",
+    "version": "1.0.0",
+    "description": "trackBy and trackById directives witch provides TrackByFunction to ngForTrackBy",
+    "keywords": [
+        "angular",
+        "ngFor",
+        "ngForOf",
+        "ngForTrackBy",
+        "trackBy",
+        "trackById"
+    ],
+    "author": {
+        "name": "Pavel Dymkov",
+        "email": "dymkov86@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PavelDymkov/ng-track-by.git"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "@angular/common": "*",
+        "@angular/core": "*"
+    },
+    "dependencies": {
+        "logical-not": "^1.0.7",
+        "tslib": "^2.2.0"
+    }
+}
