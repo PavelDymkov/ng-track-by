@@ -37,6 +37,13 @@ import { RouterModule } from "@angular/router";
                         (m) => m.TestCase04Module,
                     ),
             },
+            {
+                path: "test-case-05",
+                loadChildren: () =>
+                    import("./test-case-05/test-case-05.module").then(
+                        (m) => m.TestCase05Module,
+                    ),
+            },
         ]),
     ],
 })
